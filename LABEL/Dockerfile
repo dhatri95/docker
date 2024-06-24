@@ -1,7 +1,7 @@
 FROM almalinux:8
 LABEL image="sleep" \
     Author="Dhatri"
-#EXPOSE 80/tcp 
+EXPOSE 80/tcp 
 # defaultly also it takes TCP only
 ENV course="Devops" \
     topic=Docker
